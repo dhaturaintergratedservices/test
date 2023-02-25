@@ -291,3 +291,36 @@ a {
     background-size: contain;
     background-position: right;
 }
+
+
+
+#commonsec{
+    background-image: url(pictures/banner-image.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#commonsec:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.ihead{
+    color: var(--c1);
+    position: relative;
+    top:150px;
+}
+
+.itag{
+    font-size: 4em;
+
+}
